@@ -1,0 +1,73 @@
+.HeaderBar{
+    display: flex;
+    flex-direction: column;
+}
+
+#ImmuneHeaderImg{
+    height: 330px;
+    opacity: 30%;
+    width: 100%;
+}
+
+#HeaderBarTitle{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #004f98;
+    font-size: 60px;
+    max-width: 500px;
+    margin-left: 360px;
+}
+
+#HeaderBarTxt{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #667085;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 150px;
+    max-width: 700px;
+    margin-left: 360px;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+
+.ImmuneHealthBody{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+#ImmuneHealthTxt1, #ImmuneHealthTxt2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #344054;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    white-space: pre-line;
+    max-width: 550px;
+    margin-top: 150px;
+    line-height: 1.5;
+    
+    
+    
+
+}
+
+.ImmuneHealthTxtDiv{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+
+}
+
+#ImmuneHealthTxt1{
+    margin-left: 370px;
+    
+}
+
+#ImmuneHealthTxt2{
+    margin-left: 1000px;
+    
+}
