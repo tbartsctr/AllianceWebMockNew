@@ -1,14 +1,15 @@
 import React from "react";
 import Layout from "./Layout";
 import "./HormonalBalancePage.css"
+import BannerImage from "./hmbbanner1.jpg";
 
 
 
 function HormoneBalancePageHeader () {
     return (
             <div class="hormoneBalanceHeader">
-                <img id="hbHeaderImg" src="https://aimforwellbeing.org/cdn/shop/files/hmbbanner.webp?v=1736858242&width=2560" />
-                <h1 id="hbHeaderTxt">Hormonal Balance</h1>
+                <img id="hbHeaderImg" src={BannerImage} />
+                <h1 id="hbHeaderTxt">Hormonal & Metabolic Balance</h1>
                 <h3 id="hbHeaderBodyTxt">Hormones such as estrogen, testosterone, cortisol and insulin are created by endocrine glands and work as chemical messengers throughout your body to accomplish a wide range of important physical and chemical functions.</h3>
             </div>
        
