@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "./Layout";
 import BannerImage from "./NewPatientsImg1.jpg";
-import BodyImage from "./New_Patients_Img_1.wepb";
+//import BodyImage from "./New_Patients_Img_1.wepb";
 
 
 function BecomePatientHeader () {
@@ -25,3 +25,15 @@ function BecomePatientBody () {
         </div>
     )
 }
+
+
+const BecomePatientPage = () => {
+    return (
+        <div>
+        <BecomePatientHeader/>
+        <BecomePatientPage/>
+        </div>
+    )
+}
+
+export default BecomePatientPage;

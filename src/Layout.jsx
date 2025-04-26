@@ -49,7 +49,8 @@ function Layout ({ children }) {
               About Us
             </Link>
           </li>
-          <li>Become a Patient</li>
+          <li>
+            <Link to="/become-patient">Become a Patient</Link></li>
           <li>
             <Link to="/create-account">
               Login

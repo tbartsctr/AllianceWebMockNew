@@ -8,6 +8,7 @@ import Layout from './Layout';
 import AboutPage from "./AboutPage"
 import ImmuneHealth from "./ImmuneHealth";
 import HormoneBalancePage from './HormonalBalancePage';
+import BecomePatientPage from './BecomePatient';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about-us" element={<AboutPage/>} />
           <Route path="/immune-health" element={<ImmuneHealth/>} />
           <Route path="/hormone-health" element={<HormoneBalancePage/>}/>
+          <Route path="/become-patient" element={<BecomePatientPage/>}/>
         </Routes>
       </Layout>
     </Router>
