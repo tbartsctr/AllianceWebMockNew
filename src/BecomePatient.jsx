@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "./Layout";
 import BannerImage from "./NewPatientsImg1.jpg";
-//import BodyImage from "./New_Patients_Img_1.wepb";
+import BodyImage from "./NewPatientsImg1.webp";
 
 
 function BecomePatientHeader () {

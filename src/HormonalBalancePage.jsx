@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "./Layout";
 import "./HormonalBalancePage.css"
 import BannerImage from "./hmbbanner1.jpg";
+import "./BecomePatient";
 
 
 
@@ -47,7 +48,9 @@ function HormoneBalancePageBody () {
             Honing in on the origin of such issues to balance the hormones naturally is not only effective but can frequently have additional benefits such as increased energy, weight loss, improved sleep, and healthier skin. So, instead of only masking the issues with prescription medications, here at Alliance Integrative Medicine we focus on identifying the root cause of your hormonal imbalances so we can craft a personalized plan that addresses these issues for good.
           </p>
   
-          <button id="hbBodyBtn">Schedule A Discovery Call</button>
+          <button id="hbBodyBtn">
+                <Link to="/become-patient">Schedule A Discovery Call</Link>
+          </button>
         </div>
       </div>
     );
