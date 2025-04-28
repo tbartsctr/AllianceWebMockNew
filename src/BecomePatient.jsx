@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "./Layout";
 import BannerImage from "./NewPatientsImg1.jpg";
-import BodyImage from "./NewPatientsImg1.webp";
+import BodyImage from "./NewPatientsImage1.webp";
 
 
 function BecomePatientHeader () {
@@ -31,7 +31,7 @@ const BecomePatientPage = () => {
     return (
         <div>
         <BecomePatientHeader/>
-        <BecomePatientPage/>
+        <BecomePatientBody/>
         </div>
     )
 }
