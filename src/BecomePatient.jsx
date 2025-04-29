@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "./Layout";
 import BannerImage from "./NewPatientsImg1.jpg";
 import BodyImage from "./NewPatientsImage1.webp";
+import "./BecomePatient.css";
 
 
 function BecomePatientHeader () {
